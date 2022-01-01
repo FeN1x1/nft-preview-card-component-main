@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="nft-app" role="main">
     <div class="flex bg-dark-blue-main h-screen">
       <div class="p-6 rounded-xl m-auto max-w-sm bg-dark-blue-card box-shadow">
         <div class="cursor-pointer relative container">
@@ -13,11 +13,11 @@
           </div>
         </div>
         <div class="pt-6">
-          <div
+          <h1
             class="text-white inline-flex text-2xl font-semibold transform duration-300 ease-in-out hover:text-cyan-primary cursor-pointer"
           >
             Equilibrium #3429
-          </div>
+          </h1>
           <div class="text-soft-blue-primary text-xl py-4 font-thin">
             Our Equilibrium collection promotes balance and calm.
           </div>
@@ -70,7 +70,7 @@ export default defineComponent({
 <style>
 @import url("https://fonts.googleapis.com/css?family=Outfit:300,400,600");
 
-#app {
+#nft-app {
   font-family: "Outfit", sans-serif;
 }
 
